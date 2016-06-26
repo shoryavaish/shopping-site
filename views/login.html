@@ -1,0 +1,15 @@
+<form ng-submit="loginCtrl.submit()" name="myForm" class='loginForm'>
+<label for="name">UserName</label>
+<input type="text" id='name'
+ng-model="loginCtrl.username"
+required
+ng-minlength="4">
+<label for="password">Password</label>
+<input type="password" id='password'
+ng-model="loginCtrl.password"
+required>
+<input type="submit"
+value="Submit"
+ng-disabled="myForm.$invalid">
+</form>
+

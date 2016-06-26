@@ -1,0 +1,14 @@
+<p class='login-msg'>Please login for shopping</p>
+<div >
+
+<script src="js/slideshow.js"></script>
+<img id='ad' src="images/a.jpg" style="margin-left:19px;">
+
+</div>
+
+<p class='filter'><input type="text" ng-model="search" placeholder="search items" display="none "></p>
+<div ng-repeat="item in homectrl.result | filter:search" class='items-list'>
+	<img ng-src={{item.itemIcon}}>	<p>{{item.itemName}}</p>
+	<p>{{item.itemPrice}}</p>
+	
+</div>

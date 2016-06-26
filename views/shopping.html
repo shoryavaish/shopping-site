@@ -1,0 +1,6 @@
+<p class='filter'><input type="text" ng-model="search" placeholder="search items"></p>
+<div ng-repeat="item in ctrl.result | filter:search" class='items-list'>
+	<img src={{item.itemIcon}}>	<p>{{item.itemName}}</p>
+	<p>{{item.itemPrice}}</p>
+	<button ng-click="ctrl.addToCart(item)" class="show-image">Add To Cart</button>
+</div>

@@ -1,0 +1,12 @@
+<div class='cart-item'>
+	<h3>here are your added items.</h3><a  class='button back' href="#/shopping">Back To Shopping</a>
+	<div ng-repeat="item in cartCtrl.itemsInCart" class='items-list'>
+		<img ng-src={{item.itemIcon}}>	<p>{{item.itemName}}</p>
+		<p>{{item.itemPrice}}</p>
+		<button ng-click="cartCtrl.removeFromCart(item)">Remove</button>
+	</div>
+	<div class="orderDetails">
+		<p>Total Cost : <span></span></p>
+		<a class="button" href='#/order'>Go To Order Page</a>
+	</div>
+</div>

@@ -1,0 +1,142 @@
+
+body .items-list {
+     background: none repeat scroll 0px 0px cyan;
+     float: left;
+     padding: 5px;
+}
+
+.items-list p {
+     background: none repeat scroll 0px 0px khaki;
+     color: black;
+     font-size: 23px;
+     font-weight: bold;
+     margin: 0px;
+     text-align: center;
+}
+
+.header-1 {
+     background: none repeat scroll 0px 0px skyblue;
+     color: green;
+     font-family: comic sans ms;
+     margin: 0px;
+     opacity: 0.5;
+     padding: 20px;
+}
+
+.header-2 {
+     font-family: arial;
+     margin: 0px;
+     opacity: 0.8;
+     padding: 10px;
+	 }
+
+.header-2 a {
+     float: right;
+     text-decoration: none;
+}
+
+.cart-item {
+     background: none repeat scroll 0px 0px papayawhip;
+     color: green;
+     font-family: helvetica;
+     min-height: 400px;
+     padding: 20px;
+     position: relative;
+}
+
+.loginForm {
+     background: none repeat scroll 0px 0px white;
+     height: 200px;
+     margin: auto;
+     padding: 40px 60px;
+     width: 500px;
+}
+
+.loginForm label {
+     color: green;
+     display: inline-block;
+     font-size: 27px;
+     font-weight: bold;
+     margin-bottom: 20px;
+     width: 32%;
+}
+
+.loginForm input {
+     padding: 8px;
+     width: 66%;
+}
+
+.login-msg {
+     background: none repeat scroll 0px 0px gray;
+     color: darkred;
+     font-size: 24px;
+     margin: 0px;
+     padding: 10px 40px;
+     position: fixed;
+     right: 0px;
+     text-decoration: none;
+     top: 0px;
+	 z-index: 1;
+}
+
+.button {
+     background: none repeat scroll 0px 0px lightgray;
+     color: red;
+     float: right;
+     font-size: 16px;
+     font-weight: bold;
+     padding: 8px;
+     position: absolute;
+     right: 0px;
+     text-decoration: none;
+     
+}
+.back{top: 40px;}
+
+.filter {
+     height: 35px;
+     margin: 5px;
+     position: relative;
+}
+
+.filter input {
+     background: none repeat scroll 0% 0% thistle;
+     border-radius: 16px;
+     border: 0px none;
+     font-family: comic sans ms;
+     font-style: italic;
+     padding: 8px 30px;
+     position: absolute;
+     right: 0px;
+     width: 200px;
+	 z-index: 0;
+	 display:none;
+}
+.orderDetails p{
+font-weight:bold;
+color:navy;
+font-size: 16px;
+position: absolute;
+right: 0px;
+text-decoration: none;
+bottom: 27px;
+}
+.orderDetails p span{color:black;font-size:18px;}
+.orderDetails .button{
+color: teal;
+bottom: 7px;
+}
+.order-page{position:relative;background: lightsalmon;
+min-height: 61px;
+padding: 20px;}
+.order-page h3{position: relative;
+background: lightsalmon;
+padding: 10px 20px;}
+.order-page h3 span{padding-left: 50px;}
+.pay{top: 40px;
+right: 20px;
+padding: 8px 20px;
+font-size: 18px;
+text-transform: uppercase;
+color: #fff;
+background: #024;}
